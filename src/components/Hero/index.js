@@ -1,6 +1,10 @@
 import React from 'react'
 
 function Hero (){
-return <h1>This is Hero</h1>
+return (
+  <div className='Hero'>
+    <h2>This is Hero</h2>
+  </div>
+)
 }
 export default Hero
