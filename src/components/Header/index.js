@@ -1,6 +1,12 @@
 import React from 'react'
 
 function Header (){
-return <h1>This is Header</h1>
+return (
+  <header className="App-header">
+  <p>
+    this is Header
+  </p>
+</header>
+)
 }
 export default Header
